@@ -1,0 +1,19 @@
+# CreditScoreCreateResponseDTO
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**uniqueCreditNo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-AAgRdS3pkopQ5axKz32cc4dcnjf\&quot;&gt;易宝支付分流水号&lt;/div&gt; &lt;/div&gt; | [optional] 
+**creditOrderId** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-CBerdFzbroI2ggxmOVTcS2G7nOh\&quot;&gt;商户支付分订单请求号&lt;/div&gt; &lt;/div&gt; | [optional] 
+**code** | **string** | &lt;p&gt;返回码&lt;/p&gt; | [optional] 
+**bankSerialNo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-KagkdXBAcoMw88xJcHecgu2anBd\&quot;&gt;银行流水号&lt;/div&gt; &lt;/div&gt; | [optional] 
+**bankOrderNo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-WHdfd6gZGopOy5xDdO4cV0QdnQb\&quot;&gt;支付分银行服务订单号&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-WHdfd6gZGopOy5xDdO4cV0QdnQb\&quot;&gt;对应微信的商户服务订单号&lt;/div&gt; &lt;/div&gt; | [optional] 
+**message** | **string** | &lt;p&gt;返回信息&lt;/p&gt; | [optional] 
+**packageInfo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-W7atdTTALoHVL2xUXBkcneSunMc\&quot;&gt;跳转渠道侧数据包&lt;/div&gt; &lt;/div&gt; | [optional] 
+**merchantNo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-QguJdC7DxocIbtxtun8c0wtNngg\&quot;&gt;商户商编&lt;/div&gt; &lt;/div&gt; | [optional] 
+**reportMerchantNo** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-A2F3dppBeoEd45xdeHwcRp2Yneb\&quot;&gt;报备商户号&lt;/div&gt; &lt;/div&gt; | [optional] 
+**status** | **string** | &lt;div data-page-id&#x3D;\&quot;RUY7dRhGCoGnvox2XTIc0xetnxd\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-KMvvd8i9Xo1XXBxgInIcfpLrnL9\&quot;&gt;服务订单状态&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-ImXVdfufqou01HxWnp1cEumnn4f\&quot;&gt;当前单据状态&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-GwO6dV7oLo0dLFxdt2KcJg9jn9b\&quot;&gt;CREATED: 服务订单已创建&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-B0Oadvbo5oc6yVx6OiDc7rLKnhe\&quot;&gt;USER_CONFIRM: 用户确认&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-GXmedGxW6o6kuMxSbMEcFGmPnRb\&quot;&gt;MCH_COMPLETE：商户完结&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-E2NOdy4b7ojiLGxu8xqc8JEjnpf\&quot;&gt;DONE: 服务订单已完成&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-QVHRd3548olTXIxUKaCcBEMxnRg\&quot;&gt;REVOKED: 商户取消服务订单&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-B6wDdGArQoTQujxZTpOc53LNnXf\&quot;&gt;EXPIRED: 服务订单已失效（\&quot;CREATED\&quot;状态超过1小时用户未确认，则订单失效）&lt;/div&gt; &lt;/div&gt; | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

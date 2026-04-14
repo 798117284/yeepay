@@ -1,0 +1,11 @@
+# IdentityAuthFinanceInstitutionInfo
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**financeType** | **string** | &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-VHxwd1AjgojDxaxR2ufcC2nunI6\&quot;&gt;金融机构类型&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-VHxwd1AjgojDxaxR2ufcC2nunI6\&quot;&gt;&amp;nbsp;&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-VHxwd1AjgojDxaxR2ufcC2nunI6\&quot;&gt; &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-D6WSdr3pboEP8xxZPSbcApZCnkc\&quot;&gt;BANK_AGENT：银行业, 适用于商业银行、政策性银行、农村合作银行、村镇银行、开发性金融机构等 PAYMENT_AGENT：支付机构, 适用于非银行类支付机构 INSURANCE：保险业, 适用于保险、保险中介、保险代理、保险经纪等保险类业务 TRADE_AND_SETTLE：交易及结算类金融机构, 适用于交易所、登记结算类机构、银行卡清算机构、资金清算中心等 OTHER：其他金融机构, 适用于财务公司、信托公司、金融资产管理公司、金融租赁公司、汽车金融公司、贷款公司、货币经纪公司、消费金融公司、证券业、金融控股公司、股票、期货、货币兑换、小额贷款公司、金融资产管理、担保公司、商业保理公司、典当行、融资租赁公司、财经咨询等其他金融业务&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; | 
+**financeLicensePics** | **string[]** | &lt;div data-page-id&#x3D;\&quot;KBYAdcPY0o40NUxAVK6cmsVcn6d\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-OlZrdWHKIoUqszxbrFwcK5zcnke\&quot;&gt;金融机构许可证图片&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-OlZrdWHKIoUqszxbrFwcK5zcnke\&quot;&gt;1、根据所属金融机构类型的许可证要求提供。&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-OlZrdWHKIoUqszxbrFwcK5zcnke\&quot;&gt;2、请提供为&amp;ldquo;申请商家主体&amp;rdquo;所属的许可证，可授权使用总公司/分公司的特殊资质。&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-OlZrdWHKIoUqszxbrFwcK5zcnke\&quot;&gt;3、最多可上传5张照片。&lt;/div&gt; &lt;/div&gt; | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,18 @@
+# IdentityAuthSubjectInfo
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**licenceNumber** | **string** | &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-GwBUdM22toqcfCxKyskcSdmunKd\&quot;&gt;证件编号&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-GwBUdM22toqcfCxKyskcSdmunKd\&quot;&gt;未上传时：系统默认自动取商户信息上送支付宝&lt;/div&gt; &lt;/div&gt; | [optional] 
+**certCopy** | **string** | &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-Gw9yduDkAod7SsxG8nJcgeZnnFd\&quot;&gt;证书照片&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-Gw9yduDkAod7SsxG8nJcgeZnnFd\&quot;&gt;未上传时：系统默认自动取商户信息上送支付宝&lt;/div&gt; &lt;/div&gt; | [optional] 
+**companyProveCopy** | **string** | &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-QDeqduw67ol9m9xnLY9cyYDYndi\&quot;&gt;单位证明函照片&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-QDeqduw67ol9m9xnLY9cyYDYndi\&quot;&gt; &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-Re9cdpjjYosTi2xFkLQc8XTonCc\&quot;&gt;事业单位必填&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; | [optional] 
+**companyAddress** | **string** | &lt;p&gt;证件注册地址&lt;/p&gt; | [optional] 
+**licenceValidStartDate** | **string** | &lt;p&gt;证件有效期开始时间 格式：yyyy-MM-dd&amp;nbsp;&lt;/p&gt; | [optional] 
+**licenceValidEndDate** | **string** | &lt;p&gt;证件有效期结束时间 格式：yyyy-MM-dd&amp;nbsp; 如果是长期，请填写 forever&lt;/p&gt; | [optional] 
+**isFinanceInstitution** | **bool** | &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-F7wZd5cL4ofYUQxVzzichmM1nJb\&quot;&gt;是否金融机构&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-F7wZd5cL4ofYUQxVzzichmM1nJb\&quot;&gt;&amp;nbsp;&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-F7wZd5cL4ofYUQxVzzichmM1nJb\&quot;&gt; &lt;div data-page-id&#x3D;\&quot;DrEgd5UiTolweFx1SI4cl1jUnRg\&quot; data-lark-html-role&#x3D;\&quot;root\&quot; data-docx-has-block-data&#x3D;\&quot;false\&quot;&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-UyX2dAeHjotglQxf77jc9K8ynec\&quot;&gt;true false&lt;/div&gt; &lt;div class&#x3D;\&quot;ace-line ace-line old-record-id-At66dIsbzoLVagxgRq7cKGJynU7\&quot;&gt;默认为false&lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; | [optional] 
+**financeInstitutionInfo** | [**\Yeepay\Yop\Sdk\Service\Mer\Model\IdentityAuthFinanceInstitutionInfo**](IdentityAuthFinanceInstitutionInfo.md) |  | [optional] 
+**specialOperationInfos** | [**\Yeepay\Yop\Sdk\Service\Mer\Model\IdentityAuthSpecialOperationInfo[]**](IdentityAuthSpecialOperationInfo.md) | &lt;p&gt;经营许可证信息&lt;/p&gt; | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
