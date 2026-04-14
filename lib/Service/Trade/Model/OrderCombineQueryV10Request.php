@@ -1,0 +1,66 @@
+<?php
+
+namespace Yeepay\Yop\Sdk\Service\Trade\Model;
+
+
+class OrderCombineQueryV10Request extends \Yeepay\Yop\Sdk\Model\BaseRequest
+{
+    /**
+     * @var string
+     */
+    private $parentMerchantNo;
+    /**
+     * @var string
+     */
+    private $orderId;
+
+    /**
+     * Gets parentMerchantNo
+     *
+     * @return string
+     */
+    public function getParentMerchantNo()
+    {
+        return $this->parentMerchantNo;
+    }
+
+    /**
+     * Sets parentMerchantNo
+     *
+     * @param string $parentMerchantNo
+     * @return OrderCombineQueryV10Request
+     */
+    public function setParentMerchantNo($parentMerchantNo)
+    {
+        $this->parentMerchantNo = $parentMerchantNo;
+        return $this;
+    }
+    /**
+     * Gets orderId
+     *
+     * @return string
+     */
+    public function getOrderId()
+    {
+        return $this->orderId;
+    }
+
+    /**
+     * Sets orderId
+     *
+     * @param string $orderId
+     * @return OrderCombineQueryV10Request
+     */
+    public function setOrderId($orderId)
+    {
+        $this->orderId = $orderId;
+        return $this;
+    }
+
+    public static function getOperationId()
+    {
+        return 'order_combine_query_v1_0';
+    }
+
+
+}

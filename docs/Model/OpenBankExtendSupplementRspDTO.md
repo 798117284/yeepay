@@ -1,0 +1,12 @@
+# OpenBankExtendSupplementRspDTO
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**returnCode** | **string** | &lt;p&gt;返回码&lt;/p&gt; | 
+**returnMsg** | **string** | &lt;p&gt;返回描述&lt;/p&gt; | 
+**status** | **string** | 可选项如下: SUCCESS:成功 FAIL:失败 | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
